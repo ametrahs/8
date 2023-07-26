@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.back-image{
+    background-image:url("https://t3.ftcdn.net/jpg/05/78/01/46/360_F_578014611_lpMiTd8w09iibtdgMHjIhzfZvdgvbFQ8.jpg");
+
+   width: 100%;
+   
+   height: 100vh;
+   background-size:cover;
+ 
+background-repeat: no-repeat;
+    background-attachment: scroll;
+     
+    
+
+}
+.blur-backimage{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+ background-position: center;
+ background: rgba(0,0,0,0.5);
+
+}
+
+header{
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    display:flex;
+    justify-content: space-between;
+    
+    padding: 30px 10%;
+   background: rgba(0,0,0,0.2);
+   
+    
+}
+.nem{
+    cursor: pointer;
+    font-weight: bold;
+    
+  color: white;
+ 
+    
+}
+
+
+
+h3{
+
+  font-size:20px;
+  
+}
+nav li{
+    
+  color:white;
+  display: inline;
+  list-style: none;
+  padding: 0px 20px;
+  position: relative;
+
+
+}
+nav li a:hover{
+  text-decoration: none;
+  color: orange;
+}
+
+
+a,button{
+  font-size: 16px;
+  font-weight: 500;
+  color:white;
+  text-decoration: none;
+}
+button{
+  background: black;
+  border: 2px solid orange;
+  border-radius: 50px;
+  padding: 9px 25px;
+  
+
+}
+
+h1{
+  font-weight: bold;
+  
+     font-family: 'Lora', serif;
+  font-family: 'Merriweather Sans', sans-serif;;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 100px;
+  letter-spacing: 1.8px;
+  word-spacing: 1.8px;
+font-size: 50px;
+text-transform: capitalize;
+}
+#enem{
+  color: white;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+margin-top: 20px;
+  margin-left: 50px;
+  
+}
+#rem{
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+  text-indent: 50px;
+  line-height: 15px;
+  margin-left: 50px;
+  font-family: 'Noto Sans', sans-serif
+}
+.btn{
+  background:orange;
+  border: 2px solid rgba(0,0,0,0.2);
+  border-radius: 50px;
+  padding: 15px 35px;
+  position:absolute;
+  top:47%;
+  left: 45%;
+  text-align: center;
+  color:black;
+  word-spacing: 5px;
+font-weight: bold;
+}
+h2{
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+  word-spacing: 1.5px;
+  font-size: 35px;
+  font-weight: bold;
+}
+#tem{
+text-indent: 50px;
+line-height: 50px;
+text-align: center;
+color: rgba(0,0,0,0.5);
+}
+.hmm{
+background-color: white;
+font-family: 'Times New Roman', Times, serif;
+display: flex;
+align-items: center;
+margin-top:10px;
+
+}
+
+.boxes{
+  
+  display:flex;
+  
+  width: 900px;
+  height:400px;
+
+}
+.box{
+
+  margin:35px;
+  width: 800px;
+  height:400px ;
+ 
+
+}
+img{
+  width: 300px;
+  height: 200px;
+  border: 1px solid none; 
+  border-radius: 8px;
+}
+h6{
+  margin-top: 10px;
+  color:orange;
+  font-size: 15px;
+  
+}
+h4{
+  font-weight:bold ;
+  margin-top: 8px;
+  font-size: 25px;
+}
+h5{
+  margin-top: 8px ;
+  color: dodgerblue;
+  font-size: 15px;
+  font-family: 'DM Sans', sans-serif;
+
+  font-family: 'Lora', serif;
+
+  font-family: 'Merriweather Sans', sans-serif;
+
+  font-family: 'Urbanist', sans-serif;
+
+
+}
+span{
+  color:black;
+  font-size:10px ;
+
+}
+#ne{
+  margin-top: 15px ;
+line-height: 20px;
+  color: rgba(0,0,0,0.5);
+  
+}
+.journey{
+  color:orange;
+  font-size: 10px;
+  display: block;
+  margin-left: 32px;
+  margin-top:4px;
+  
+}
+#nemo{
+  height: 30px;
+}
